@@ -1,0 +1,423 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: rgb(27, 26, 26);
+}
+
+header {
+  background-color: rgb(0, 0, 0);
+  height: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  gap: 30px;
+}
+
+.menu a {
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.titulo {
+  color: rgb(128, 26, 211);
+}
+
+.menu a:hover {
+  transform: translateX(5px);
+  color: #ef06f7;
+}
+
+.Mangas{
+    background-color: rgb(116, 16, 173) ;
+    width: 60%;              /* controla o tamanho */
+    margin: 50px auto;       /* centraliza */
+    padding: 30px 40px;
+    border-radius: 40px;     /* deixa arredondado */
+    text-align: left;
+    color: white;
+    box-shadow: 0 15px 35px rgb(116, 16, 16);
+
+}
+
+.Mangass h1 {
+font-size: 40px;         /* título grande */
+    margin-bottom: 15px;
+}
+
+.paragrafoMangas {
+font-size: 21px;         /* texto menor */
+    line-height: 1.6;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.BordasOne{
+  background: rgb(75, 73, 73);
+  width: 1600px;
+  padding: 30px;
+  margin-left: 120px;
+  /* centraliza */
+  border-radius: 20px;
+  /* 🔥 bordas arredondadas */
+  box-shadow: 0 15px 35px rgba(100, 0, 167, 0.336);
+}
+
+span{
+  color: rgb(238, 255, 0);
+}
+.maisLidoo {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 7rem;
+  font-size: 2.0rem;
+  color: rgb(253, 252, 255);
+  margin-bottom: 20px;
+}
+
+.dpOne{
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 300px;
+}
+
+
+.imgOne {
+  
+  /* margin-right : 270px; */
+}
+
+.paragrafoOne {
+  margin-right: 12rem;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 7rem;
+  font-size: 1.5rem;
+  color: aliceblue;
+
+}
+
+.onePiece {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 7rem;
+  font-size: 1.9rem;
+  font-weight: 550;
+  color: aliceblue;
+  margin-bottom: 20px;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.BordasWeb{
+    background: rgb(75, 73, 73);
+  width: 1600px;
+  padding: 30px;
+  margin-left: 120px;
+  /* centraliza */
+  border-radius: 20px;
+  /* 🔥 bordas arredondadas */
+box-shadow: 0 15px 35px rgba(100, 0, 167, 0.336);
+}
+
+.webtoon {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 7rem;
+  font-size: 2.0rem;
+  color: aliceblue;
+  margin-bottom: 20px;
+}
+
+.webtoonSub {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 7rem;
+  font-size: 1.9rem;
+  font-weight: 550;
+  color: aliceblue;
+}
+
+.paragrafoWeb {
+  margin-right: 12rem;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 7rem;
+  font-size: 1.5rem;
+  color: aliceblue;
+  margin-top: 20px;
+}
+
+.divOrv{
+ display: flex;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 260px;
+
+}
+
+
+.imgWeb {
+  margin-left: 0rem;
+  margin-right: 30px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+.divManhua{
+   background: rgb(75, 73, 73);
+  width: 1600px;
+  padding: 30px;
+  margin-left: 120px;
+  /* centraliza */
+  border-radius: 20px;
+  /* 🔥 bordas arredondadas */
+ box-shadow: 0 15px 35px rgba(100, 0, 167, 0.336);
+}
+
+.manhua {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 7rem;
+  font-size: 2.0rem;
+  color: aliceblue;
+  margin-bottom: 20px;
+}
+
+.manhuaa {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 7rem;
+  font-size: 1.9rem;
+  font-weight: 550;
+  color: aliceblue;
+  margin-bottom: 20px;
+}
+
+.paragrafoManhua {
+  margin-right: 12rem;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 7rem;
+  font-size: 1.5rem;
+  color: aliceblue;
+}
+
+
+.secondManhua{
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 330px;
+}
+
+.imgManhua {
+  margin-left: 7rem;
+  margin-right: 200px
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.divPopular{
+     background: rgb(75, 73, 73);
+  width: 1600px;
+  padding: 30px;
+  margin-left: 120px;
+  /* centraliza */
+  border-radius: 20px;
+  /* 🔥 bordas arredondadas */
+box-shadow: 0 15px 35px rgba(100, 0, 167, 0.336);
+  margin-bottom: 80px;
+}
+
+.popular{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 7rem;
+  font-size: 2.0rem;
+  color: aliceblue;
+  margin-bottom: 20px;
+}
+
+.jujutsu {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 7rem;
+  font-size: 1.9rem;
+  font-weight: 550;
+  color: aliceblue;
+  margin-bottom: 20px;
+}
+
+.paragrafoJujutsu {
+  margin-right: 12rem;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 7rem;
+  font-size: 1.5rem;
+  color: aliceblue;
+}
+
+.itadori{
+  margin-right: 100px;
+}
+
+.secondJujutsu{
+ display: flex;
+  flex-direction: row-reverse;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 330px;
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.divDestaque{
+     background: rgb(75, 73, 73);
+  width: 1600px;
+  padding: 30px;
+  margin-left: 120px;
+  /* centraliza */
+  border-radius: 20px;
+  /* 🔥 bordas arredondadas */
+  box-shadow: 0 15px 35px rgba(100, 0, 167, 0.336);
+}
+
+.destaque{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 7rem;
+  font-size: 2.0rem;
+  color: aliceblue;
+  margin-bottom: 20px;
+}
+
+.Kagurabachi {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 7rem;
+  font-size: 1.9rem;
+  font-weight: 550;
+  color: aliceblue;
+  margin-bottom: 20px;
+}
+
+.paragrafoKagura{
+  margin-right: 12rem;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 7rem;
+  font-size: 1.5rem;
+  color: aliceblue;
+}
+
+.Kaguraa{
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.secondKagura{
+ display: flex;
+  justify-content: left;
+  margin-top: 20px;
+  margin-left: 110px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.divLidos{
+      background: rgb(75, 73, 73);
+  width: 1600px;
+  padding: 30px;
+  margin-left: 120px;
+  /* centraliza */
+  border-radius: 20px;
+  /* 🔥 bordas arredondadas */
+ box-shadow: 0 15px 35px rgba(100, 0, 167, 0.336);
+  margin-top: 70px;
+}
+
+.maisLidoss {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 7rem;
+  font-size: 1.9rem;
+  color: aliceblue;
+  margin-bottom: 20px;
+}
+
+#mangasLidos {
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+.paragrafoLidos {
+  margin-right: 12rem;
+  font-weight: 100;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 7rem;
+  font-size: 1.4rem;
+  color: aliceblue;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.linha{
+  background-color: aliceblue;
+  color:  aliceblue;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  height: 2px;
+  font-size: 0;
+}
+
+.sobreNoss {
+  margin-right: 12rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 7rem;
+  font-size: 1.2rem;
+  color: rgb(250, 250, 250);
+}
+
+.paragrafoSobre {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 7rem;
+  margin-right: 12rem;
+  color: aliceblue;
+}
+
+.contatoo {
+  margin-right: 12rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 7rem;
+  font-size: 1.2rem;
+  color: aliceblue;
+}
+
+.informacoes {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 7rem;
+  margin-right: 12rem;
+  color: aliceblue;
+  margin-bottom: 20px;
+}
+
+.homee {
+  color: rgb(0, 20, 197);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  padding: 5px;
+  border-radius: 15rem;
+  width: 300px;
+  height: 30px;
+}
