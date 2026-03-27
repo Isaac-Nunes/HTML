@@ -1,0 +1,361 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.Container {
+  display: grid;
+  grid-template-columns: 100px 1fr 100px;
+}
+
+.banner1 {
+  /* background-color: rgb(0, 0, 0); */
+  justify-items: center;
+  align-items: center;
+  place-items: center;
+  width: 100%;
+  height: 500px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+.informacoes {
+  margin-left: 160px;
+  width: 900px;
+  margin-top: 80px;
+  text-align: justify;
+}
+
+.informacoes1 {
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: xx-large;
+}
+
+.descricao {
+  font-family: "Orbitron", sans-serif;
+  font-size: 22px;
+
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr 100px 1fr;
+}
+
+.imagemInfo {
+  margin-top: 150px;
+  border-radius: 30px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.programacao {
+  margin-left: 160px;
+  /* width: 900px; */
+  text-align: justify;
+
+}
+
+.programacao1 {
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: xx-large;
+}
+
+.descricao2 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 22px;
+
+}
+
+.container3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(90, 8, 196, 0.205);
+  column-gap: 100px;
+
+}
+
+.imagemProgramacao {
+
+  border-radius: 30px;
+}
+
+span {
+  color: rgb(111, 0, 255);
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.Galeria {
+  margin-left: 150px;
+  margin-top: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: xxx-large;
+}
+
+.borda {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.63);
+  border-radius: 20px;
+  margin: 50px;
+  height: 800px;
+  margin-top: -10px;
+}
+
+.container4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  height: 100%;
+  width: 90%;
+  gap: 30px;
+  align-items: center;
+  justify-items: center;
+  margin-top: 4px;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////// */
+.localizacao {
+  margin-left: 160px;
+  width: 900px;
+  margin-top: 60px;
+  text-align: justify;
+}
+
+.localizacao1 {
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: xx-large;
+}
+
+.descricaoLoc {
+  font-family: "Orbitron", sans-serif;
+  font-size: 22px;
+}
+
+.container5 {
+  display: grid;
+  grid-template-columns: 1fr 100px 1fr;
+}
+
+.imagemInfo {
+  margin-top: 100px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+
+}
+
+/* //////////////////////////////////////////////////////////////////////// */
+.footer {
+  background-color: #0b0615;
+  color: white;
+  padding: 40px 10%;
+  margin-top: 30px;
+}
+
+.footerContainer {
+  display: grid;
+  grid-template-columns: 400px 400px 400px 400px;
+}
+
+.footerVelk {
+  width: 300px;
+}
+
+.confirmar {
+  color: #a855f7;
+}
+
+.contato {
+  color: #a855f7;
+  margin-bottom: 10px;
+}
+
+.info {
+  font-size: 14px;
+}
+
+.confirmar a {
+  color: #c084fc;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footerFinal {
+  text-align: center;
+  margin-top: 30px;
+  border-top: 1px solid #2e1a47;
+  padding-top: 15px;
+  font-size: 15px;
+}
+
+/* --------------------------------------------- COMEÇO DO MEDIA ----------------------------------------------------------------- */
+
+@media(max-width: 375px) {
+  .banner1 {
+    margin: 0;
+    padding: 0;
+    width: 375px;
+  }
+
+  .banner {
+    width: 395px;
+    height: 300px;
+  }
+
+  .Container {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .imgteste {
+    display: none;
+  }
+
+  /* //////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+  .informacoes {
+    margin-left: 2px;
+    margin-top: -170px;
+    width: 370px;
+    text-align: justify;
+  }
+
+  .informacoes1 {
+    font-size: large;
+    margin-left: 2px;
+
+  }
+
+  .descricao {
+    font-size: 15px;
+    text-align:justify;
+    font-size:small;
+    
+  
+  }
+
+  .imagemInfo {
+    margin-top: 0px;
+    width: 100px;
+    height: 160px;
+  }
+
+  .legenda {
+    display: flex   ;
+    flex-direction: column;
+
+  }
+  .container2{
+    display: flex;
+    flex-direction: column;
+  }
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+
+.programacao{
+margin-left: 2px;
+
+}
+.programacao1{
+  font-size: large;
+}
+.descricao2{
+  font-size: 13px;
+  text-align: justify;
+}
+.container3{
+  display: flex;
+  flex-direction: column;
+
+}
+.imagemProgramacao{
+  width: 130%;
+  height: 150px;
+  margin-left: -30px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////// */
+.Galeria{
+  margin-left: 10px;
+ font-size: x-large;
+ text-align: center;
+}
+
+.borda{
+margin: 10px;
+background-color: rgba(76, 50, 138, 0.404);
+height: 500px;
+padding: 40px;
+}
+
+.container4 img{
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+
+}
+.container4{
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    height: 100%;
+    column-gap: 20px;
+}
+/* ////////////////////////////////////////////////////////////////////////////// */
+.localizacao{
+  margin-left: 10px;
+  margin-top: 40;
+ width: 360px;
+ text-align: justify;
+}
+
+.localizacao1{
+  font-size: x-large;
+}
+
+.descricaoLoc{
+  font-size: 15px;
+}
+
+.container5{
+  display: flex;
+  flex-direction: column;
+}
+
+.imagemInfo{
+  margin-left: 20px;
+  width: 90%;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+
+.footer{
+  padding: 20px 2%;
+}
+
+.footerContainer{
+  display: flex;
+  flex-direction: column;
+}
+.footerVelk h3{
+  text-align: center;
+  margin-left: 50px;
+  font-size: 20px;
+  border-bottom: 1px solid #5915ac;
+  padding-bottom: 10px;
+}
+}
+
+@media(max-width: 768px){
+
+} 
